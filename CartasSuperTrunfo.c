@@ -18,6 +18,10 @@ int main(){
     float pib2;
     int turismo;
     int turismo2;
+    float densidade;
+    float densidade2;
+    float capita;
+    float capita2;
 
     // Carta 1
     printf("Bem vindo(a) ao jogo Super Trunfo\nVamos criar a Carta 1:\n");
@@ -43,6 +47,10 @@ int main(){
     printf("Qual e o numero de postos Turisticos?\n");
     scanf("%d", &turismo);
 
+    capita = pib / populacao;
+    densidade = area / populacao;
+
+
     // Carta 2
     printf("\nMuito bem!!!\nAgora vamos fazer a Carta 2:\n");
 
@@ -67,6 +75,10 @@ int main(){
     printf("Qual e o numero de postos Turisticos?\n");
     scanf("%d", &turismo2);
 
+    capita2 = pib2 / populacao2;
+    densidade2 = area2 / populacao2;
+
+
     // Exibição
     printf("\nPARABENS!!!\nCarta 1:\n");
     printf("Estado: %c\n", letra);
@@ -76,6 +88,8 @@ int main(){
     printf("Area: %.2f km²\n", area);
     printf("PIB: %.2f bilhoes de reais\n", pib);
     printf("Turismo: %d\n", turismo);
+    printf("Densidade Populacional: %2.f\n", densidade);
+    printf("PIB PerCapita: %.2f\n", capita);
 
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", letra2);
@@ -85,6 +99,10 @@ int main(){
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Turismo: %d\n", turismo2);
+    printf("Densidade Populacional: %2.f\n", densidade2);
+    printf("PIB PerCapita: %.2f\n", capita2);
+
+
 
     return 0;
 }
