@@ -48,6 +48,7 @@ int main(){
     scanf("%d", &turismo);
 
     capita = pib / populacao;
+
     densidade = area / populacao;
 
 
@@ -76,6 +77,7 @@ int main(){
     scanf("%d", &turismo2);
 
     capita2 = pib2 / populacao2;
+
     densidade2 = area2 / populacao2;
 
 
